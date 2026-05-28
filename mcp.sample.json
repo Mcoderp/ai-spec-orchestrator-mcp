@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "ai-spec-orchestrator": {
+      "command": "node",
+      "args": [
+        "/ABSOLUTE/PATH/TO/ai-spec-orchestrator-mcp/dist/index.js"
+      ],
+      "env": {
+        "JIRA_BASE_URL": "https://your-domain.atlassian.net",
+        "JIRA_EMAIL": "you@company.com",
+        "JIRA_API_TOKEN": "your-jira-api-token"
+      }
+    }
+  }
+}
