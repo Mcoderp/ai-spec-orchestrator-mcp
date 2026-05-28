@@ -91,12 +91,3 @@ You can also copy the ready sample file:
   - `featureSlug`: `feature-slug`
   - `codePaths`: `["lib/**/feature*","test/**/feature*"]`
 
-## Publish to GitHub
-
-```bash
-git add .
-git commit -m "feat: add ai spec orchestrator mcp server"
-git branch -M main
-git remote add origin <your-github-repo-url>
-git push -u origin main
-```
